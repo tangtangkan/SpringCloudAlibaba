@@ -1,0 +1,6 @@
+商品提供者
+端口：8001
+
+使用DiscoveryClient来发现Eureka上的服务
+1.控制层注入DiscoveryClient
+2.启动类加上注释@EnableDiscoveryClient

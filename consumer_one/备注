@@ -1,0 +1,4 @@
+商品消费者
+端口：80
+使用RestTemplate调用服务端接口
+@LoadBalanced注解赋予RestTemplate实现负载均衡(默认轮训算法)

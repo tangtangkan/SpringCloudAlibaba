@@ -1,0 +1,13 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: consumer_one                      # 服务与服务间的调用
+
+eureka:
+  client:
+    registerWithEureka: false         # 服务注册开关
+    fetchRegistry: true               # 服务发现开关
+    serviceUrl:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka # 单机配置:http://localhost:6001/eureka
