@@ -1,0 +1,5 @@
+将服务消费者注册进zookeeper
+端口：81
+zookeeper部署在contos7上版本3.4.9
+注意contos7上防火墙要关闭
+CP：保证一致性，所以zookeeper是临时节点

@@ -1,0 +1,4 @@
+将服务提供者注册进zookeeper
+端口：8004
+zookeeper部署在contos7上版本3.4.9
+注意contos7上防火墙要关闭

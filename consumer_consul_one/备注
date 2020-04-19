@@ -1,0 +1,13 @@
+服务消费者注册进consul
+端口：82
+
+eureka、zookeeper、consul三个注册中心对比
+eureka：java语言开发，AP：高可用
+zookeeper：go语言开发，CP：数据一致性
+consul：java语言开发，CP：数据一致性
+
+
+CAP:一个分布式系统不可能满足三个诉求，只能同时满足两个
+C:强一致性（数据）
+A:高可用
+P:分区容错性

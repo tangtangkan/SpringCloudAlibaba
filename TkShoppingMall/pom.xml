@@ -16,6 +16,10 @@
         <module>../eureka_server_one</module>
         <module>../eureka_server_two</module>
         <module>../provider_two</module>
+        <module>../provider_zk_one</module>
+        <module>../consumer_zk_one</module>
+        <module>../provider_consul_one</module>
+        <module>../consumer_consul_one</module>
     </modules>
 
     <!--  定义jar包版本参数  -->
