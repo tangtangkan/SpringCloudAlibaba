@@ -9,11 +9,11 @@ eureka:
     fetch-registry: false           # 不需要检索服务
     service-url:
 #      单机版
-      defaultZone: http://eureka7001.com:7001/eureka
+#      defaultZone: http://eureka7001.com:7001/eureka
 #      集群版
-#      defaultZone: http://eureka7002.com:7002/eureka
-  server:
-    # 关闭自我保护机制
-    enable-self-preservation: false
-    # 心跳机制时间默认90秒
-    eviction-interval-timer-in-ms: 2000
+      defaultZone: http://eureka7002.com:7002/eureka
+#  server:
+#    # 关闭自我保护机制
+#    enable-self-preservation: false
+#    # 心跳机制时间默认90秒
+#    eviction-interval-timer-in-ms: 2000

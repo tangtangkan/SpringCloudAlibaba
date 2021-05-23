@@ -11,8 +11,12 @@ import java.util.List;
 @Service
 public class ProductServiceImpl implements ProductService {
 
+    private final ProductMapper productMapper;
+
     @Autowired
-    private ProductMapper productMapper;
+    public ProductServiceImpl(ProductMapper productMapper) {
+        this.productMapper = productMapper;
+    }
 
     @Override
     public Product findById(Long pid) {
