@@ -15,5 +15,5 @@ eureka:
 #  server:
 #    # 关闭自我保护机制
 #    enable-self-preservation: false
-#    # 心跳机制时间默认90秒
+#    # 心跳机制时间默认90秒（驱逐间隔, 每两秒清理一次无效节点）
 #    eviction-interval-timer-in-ms: 2000
