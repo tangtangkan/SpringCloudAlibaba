@@ -1,3 +1,8 @@
 尚硅谷周阳 第二季 SpringCloud
-
 父工程，做项目管理
+
+eureka_one: 7001
+eureka_two: 7002
+provider_one: 8001
+provider_two: 8002
+consumer_one: 80
